@@ -17,3 +17,12 @@
 .custom_radio:checked ~ span {
   display: block !important;
 }
+
+button[aria-checked="true"] div[data-testid="flowbite-toggleswitch-toggle"] {
+  background-color: #00b207;
+  border-color: #00b207;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #00b207;
+}
